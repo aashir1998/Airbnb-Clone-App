@@ -1,5 +1,4 @@
 {
-  "homepage": "http://aashir1998.github.io/Airbnb-Clone-App",
   "name": "project",
   "dependencies": {
     "react": "17.0.2",
@@ -14,8 +13,6 @@
     "webpack": "^2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
     "build": "webpack",
     "watch": "webpack -w"
   }
